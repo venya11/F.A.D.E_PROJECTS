@@ -15,11 +15,11 @@ https://sgames.org/searchgames/?q=%3Cimg+src%3D%22abc%22+onerror%3Dalert%28%22ab
 2. Observe the JavaScript execution.
 
 
-3. ### Video Evidence
-  4.[Link to the PoC Video](poc-xss-video.mp4)
+### Video Evidence
+[Link to the PoC Video](poc-xss-video.mp4)
 
-5. ### Screenshot Evidence of report to developers
-6. ![PoC Screen](poc-xss-report.png)
+### Screenshot Evidence of report to developers
+![PoC Screen](poc-xss-report.png)
 
 
 ## Timeline
