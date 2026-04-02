@@ -6,7 +6,7 @@ During a security assessment of the sgames.org portal, I discovered a Reflected 
 ## Technical Analysis
 * **Vulnerability Type:** Reflected XSS
 * **Affected Parameter:** q (search query)
-* **Payload:** <img src=x onerror=alert(1)>
+* **Payload:** `<img src=x onerror=alert(1)>`
 * **Vector:** The application reflects the user input from the search bar directly into the HTML Document Object Model (DOM) without proper sanitization.
 
 * ## Proof of Concept
@@ -16,7 +16,7 @@ https://sgames.org/searchgames/?q=%3Cimg+src%3D%22abc%22+onerror%3Dalert%28%22ab
 
 
 3. ### Video Evidence
-4. ![PoC Video](poc-xss-video.mp4)
+4.* [Link to the PoC Video](poc-xss-video.mp4)
 5. ### Screenshot Evidence of report to developers
 6. ![PoC Screen](poc-xss-report.png)
 
